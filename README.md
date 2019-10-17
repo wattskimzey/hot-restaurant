@@ -2,7 +2,8 @@
 hot-resturant
 
 ## Description
-yeah it's like the best freaking app in the universe
+One or two sentences summarizing your project. This should be more
+interesting than technical.
 
 ## Motivation
 Two or three sentences describing the problem the project solves.
