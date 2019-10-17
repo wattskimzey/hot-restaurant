@@ -8,11 +8,23 @@ var PORT = 3000;
 
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
+app.use(express.json());// Routes
+// =============================================================
 
 
 
-
+var tableArray = [
+    {
+      customerName: "Ewin",
+      customerEmail: "Ewin@example.com",
+      customerID: "afhaque89",
+      phoneNumber: "111-222-3333"
+    }
+  ];
+  
+  // Note how we export the array. This makes it accessible to other files using require.
+  module.exports = tableArray;
+  
 
 
 
